@@ -10,7 +10,7 @@ body {
 /* Header and hero */
 
 .top {
-    background-color: #1F2739;
+    background-color: #1F2937;
     padding: 20px 0;
     height: fit-content;
 }
@@ -71,7 +71,7 @@ button {
 .information h2 {
     font-size: 36px;
     font-weight: 900;
-    color: #1F2739;
+    color: #1F2937;
     text-align: center;
     padding-bottom: 50px;
 }
@@ -102,4 +102,21 @@ button {
 
 .images div {
     width: 125px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 100px 200px;
+}
+
+.text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#author {
+    text-align: end;
+    font-weight: 900;
 }
