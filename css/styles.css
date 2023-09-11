@@ -40,6 +40,7 @@ button {
     padding: 6px 25px;
     border-radius: 5px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .hero h2 {
@@ -107,7 +108,7 @@ button {
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 100px 200px;
+    padding: 100px 300px;
 }
 
 .text {
@@ -119,4 +120,36 @@ button {
 #author {
     text-align: end;
     font-weight: 900;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.container {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #E5E7EB;
+    flex: 1;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container button {
+    border-color: #E5E7EB;
+    border: 2px solid;
+}
+
+.container h4 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container p {
+    font-size: 14px;
 }
